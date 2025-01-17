@@ -110,6 +110,10 @@ section{
   font-weight: 700;
   font-size: 2.5rem;
 }
+
+.banner, img{
+  width: 100%;
+}
 .element-title{
   font-weight: 600;
   font-size: 1.25rem;
@@ -192,16 +196,26 @@ margin-bottom: 20px;
 
 /* responsive media query */
 @media screen and (max-width:576px){
-  .navbar,.nav-link, .teams{
+  .navbar,.nav-link, .teams, .Features-love{
     flex-direction: column;
   }
-  .team-img-container{
+  .team-img-container, 
+  .work-experience, 
+  .sponser-icon{
     grid-template-columns: repeat(1,1fr);
+  }
+  #experience-badge{
+    margin-top: 20px;
+    margin-left: 50px;
+
   }
   .our-features{
     margin-left: 20px;
   }
-  
+  .work-element, .sponser-head, .sponser-icon{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
 }
 /* medium size device */
 @media screen and (min-width:576px) and (max-width: 992px) {
@@ -211,6 +225,9 @@ margin-bottom: 20px;
   }
   .our-features{
     margin: 0 25px;
+  }
+  .feature-img{
+    margin-top: 300px;
   }
   
 }
