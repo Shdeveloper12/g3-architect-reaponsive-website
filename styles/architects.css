@@ -34,7 +34,8 @@ section{
 }
 .nav-link{
   text-decoration: none;
-  font-weight: 500px;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 .text-gray{
   color: rgba(66, 66, 66, 1);
@@ -54,7 +55,12 @@ section{
   font-weight: 600;
   border-radius: 8px;
   border: none;
+  transition: 0.4s ease-in-out;
 
+}
+.btn-primary:hover{
+  background-color:rgb(160, 116, 32) ;
+  cursor: pointer;
 }
 /* banner related style */
 .banner-content{
@@ -129,8 +135,9 @@ section{
 .experience-badge{
   margin-top: -100px;
 }
-.featured-architect{
+.featured-architect, img{
   padding-top: 35px;
+  width: 100%;
 }
 #experience-badge{
   padding:40px 35px;
@@ -153,6 +160,10 @@ section{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 120px;
+  margin: 0 20px 0 20px;
+}
+.fact-description{
+  margin-left: 15px;
 }
 .fact-card, img{
   margin-top: 15px;
@@ -231,6 +242,15 @@ margin-bottom: 20px;
   }
   .featured-architect{
     margin-top:300px;
+  }
+  .nav-link{
+    font-size: 1.25rem;
+  }
+  .facts-container{
+    margin: 0 20px 0 20px;
+  }
+  .fact-description{
+    margin-left: 15px;
   }
   
 }
