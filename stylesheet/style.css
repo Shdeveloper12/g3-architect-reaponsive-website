@@ -100,9 +100,94 @@ section{
 #quick-list{
   font-weight: 500;
 }
+.Features-love{
+  display: flex;
+  gap: 140px;
+}
+.feature-titles{
+  border-left: 5px solid rgba(255, 144, 14, 1);
+  padding-left: 16px;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.element-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin:0 auto;
+  
+}
+.feature-element{
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.experience-badge{
+  margin-top: -100px;
+}
+.all-features{
+  padding-top: 35px;
+}
+#experience-badge{
+  padding:40px 35px;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+#experience-year{
+  font-weight: 700;
+  font-size: 3rem;
+}
+.work-element{
+  border: 1px solid rgba(255, 144, 14, 1);
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:25px;
+}
+.work-experience{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 120px;
+}
+.work-element, img{
+  margin-top: 15px;
+}
+#font-decoration{
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.short-title{
+  font-weight: 500px;
+  margin-top: 0 auto;
+}
+.sponser-head{
+  text-align: center;
+  margin: 50px auto;
+  max-width: 540px;
+ 
+}
+#feature-titles{
+  padding-left: 16px;
+font-weight: 700;
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+.sponser-icon{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-left: 80px;
+  filter: grayscale(100%);
 
-
-
+}
+/* footer design */
+.footer-item{
+  text-align: center;
+  background-color: rgba(255, 244, 231, 1);
+  margin-top: 80px;
+  padding: 30px;
+}
 
 
 /* responsive media query */
